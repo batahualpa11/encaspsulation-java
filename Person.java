@@ -24,7 +24,7 @@ public class Main {
 public class Main {
   public static void main(String[] args) {
     Person myObj = new Person();
-    myObj.setName("John"); // Set the value of the name variable to "John" // here we don't get any errors because it uses the public set method even though it is still declared private  
+    myObj.setName("John"); // Set the value of the name variable to "John" // here we don't get any errors because it uses the public "set method" even though it is still declared private  
     System.out.println(myObj.getName()); // here you can see we use the "get method" to then print the name "john" 
   }
 }
